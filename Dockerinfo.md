@@ -20,9 +20,9 @@
   - **FROM python:3.10** на базе чего создавать image, python основной, какая ОС, не важно.
   
   - **RUN apt update** RUN - это выполнить команду в среде 
-  - **RUN apt update \
-    && apt install -y mc \ mc - проводник, ключ `- y` тушение подтверждения на установку
-    && apt install -y vim** vim - текстовый редактор   
+  - **RUN apt update && apt install && apt install -y vim -y mc** 
+     - mc - проводник, ключ `- y` тушение подтверждения на установку
+     - vim - текстовый редактор   
   
   - **RUN mkdir -p /opt/src** создать папку, `-p` - если папка есть, то обновит ее
   
