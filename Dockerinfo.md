@@ -1,7 +1,7 @@
 # Команды Docker в CMD
 - docker -v # версия докера
 **docker images** # список имеджей
-'docker build' . - создание image в этой же папке искать 
+`docker build` . - создание image в этой же папке искать 
 
 docker bild - t .- ключ - t присвоение TAG для image
 docker run 464 - запустить контейнер на основании image 464(первіе цифрі image) 
